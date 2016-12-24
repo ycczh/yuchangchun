@@ -1,0 +1,291 @@
+
+
+/*   BEM命名       */
+
+/*公共样式*/
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.title-big-common{
+	font-size:40px;
+	text-align:center;
+	padding:50px 0;
+	letter-spacing:10px;
+	font-family: '微软雅黑'；
+}
+.cwhite{
+	color:#fff;
+}
+.title1-color{
+	color:#2e3a50;
+}
+.title2-color{
+	color:#cdd6d5;
+}
+.title3-color{
+	color:#77b44d;
+}
+
+
+
+/*首屏样式*/
+
+.level1{
+	background:#cfd8df;
+	box-sizing: border-box;
+	width:100%;
+	position:fixed;
+	z-index:-1;
+	top:0px;
+	left:0px;
+	
+}
+.level1-zhezhao{
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.5;
+	position:absolute;
+	display:none;
+}
+.level1_content{
+	width:90%;
+	margin:0 auto;
+	padding-top:50px;
+}
+
+.level1-listbox>h1{
+	font-size:90px;
+	font-weight:900;
+	margin:40px 0px;
+	letter-spacing: 20px;
+	font-family: '微软雅黑';
+	
+
+}
+.level1_list{
+	position: absolute;
+	z-index:-1;
+}
+.level1_list>li{
+	height:45px;
+	line-height:45px;
+	background:#fff;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	margin-top:35px;
+	cursor:pointer;
+	
+}
+.level1_list>li:nth-child(1){
+	width:100px;
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+}
+.level1_list>li:nth-child(2){
+	width:150px;
+	animation-delay:0.4s;
+	-webkit-animation-delay:0.4s;
+}
+.level1_list>li:nth-child(3){
+	width:200px;
+	animation-delay:0.5s;
+	-webkit-animation-delay:0.5s;
+}
+.level1_list>li:nth-child(4){
+	width:250px;
+	animation-delay:0.6s;
+	-webkit-animation-delay:0.6s;
+}
+
+
+
+/*   第二屏   */
+.level2{
+	background:#77b852;
+	height:600px;
+}
+.level2-content{
+	width:90%;
+	margin:0 auto;
+}
+.level2_introduce-text{
+	width:40%;
+	overflow:hidden;
+}
+
+.level2-imgbox>img{
+	width:200px;
+	margin-right:10px;
+}
+.level2-imgbox>p{
+	width:100%;
+	font-size:14px;
+	line-height:2.5;
+	text-indent:30px;
+	color:#2e3a50;
+}
+.level2_lifeshow{
+	width:55%;
+	margin-left:5%;
+}
+.level2_lifeshow>h3{
+	font-size:30px;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	font-weight:bold;
+	color:#2e3a50;
+	margin-bottom:30px;
+}
+.level2_lifeshow>ul>li{
+	float:left;
+	width:40%;
+	margin-left:5%;
+	height:250px;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.level2_lifeshow>ul>li>img{
+	width:100%;
+}
+.level2_introduce{
+	font-family:'微软雅黑';
+}
+
+
+/*   第三屏   */
+.level3{
+	background:#333c43;
+	height:600px;
+}
+.level3_content{
+	width:1250px;
+	margin:0 auto;
+}
+.level3_list>li{
+	margin-bottom:30px;
+	
+}
+.level3_list_circle-outer{
+	width:1000px;
+	height:30px;
+	border-radius:10px;
+	background: #ccc;
+	display:inline-block;
+	vertical-align: middle;
+	position:relative;
+}
+.level3_list_text{
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	color:#fff;
+	margin-top:180px;
+	font-size:16px;
+}
+.level3_list_title{
+	display:inline-block;
+	width:70px;
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	font-size:16px;
+	font-weight:bold;
+	color:#b6b0a2;
+	vertical-align: middle;
+	margin-right:35px;
+	
+}
+.level3_list_circle-inner{
+	height:30px;
+	background:#76b856;
+	display:inline-block;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+.level3_list_degree{
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	vertical-align: top;
+	font-size:16px;
+	color:#b6b0a2;
+	font-weight:900;
+	margin-left:20px;
+
+}
+
+
+/*   第四屏   */
+.level4{
+	background:#cfd8df;
+}
+.level4_content{
+	width:1400px;
+	margin:0 auto;
+}
+
+.swiper1{
+	text-align:center;
+	height:580px;
+}
+.level4_zuopin{
+	width:800px;
+	height:500px;
+	overflow:hidden;
+	margin:0 auto;
+	display:block;
+	cursor:pointer;
+	position:relative;
+}
+.level4_zuopin>img{
+	width:100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom:0px;
+}
+.swiper-pagination-bullet{
+	width:140px;
+	height:40px;
+	border-radius:5px;
+	line-height:40px;
+	text-align:center;
+	color:#fff;
+	font-weight:bold;
+	letter-spacing: 2px;
+	cursor:pointer;
+}
+
+.zhezhao{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background:#000;
+	opacity:0.5;
+}
+.play{
+	position: absolute;
+	display:block;
+	width:50px;
+	height:50px;
+	left:50%;
+	top:50%;
+	margin-top:-25px;
+	margin-left:-25px;
+	background:url('../img/play.png');
+	z-index:111;
+	background-size:100% 100%;
+}
