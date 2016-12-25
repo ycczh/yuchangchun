@@ -21,11 +21,11 @@ $(document).ready(function(){
 		bullet.eq(4).text('SPA单页应用');
 	},500)
 
-	$('.play').click(function(){
+	$('.level4-spa-btn').click(function(){
 		var Img=$('.level4-spa').find('img');
 		Img.attr('src','img/test3.gif');
 		Img.css('width','320px')
 		$('.zhezhao').css('display','none');
-		$('.play').css('display','none');
+		$('.level4_project_text').css('display','none');
 	})
 })

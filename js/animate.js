@@ -11,14 +11,13 @@ $(document).ready(function(){
 		})
 	})
 
-	//技能树加载
+	//技能树加载 
 
 	$(window).scroll(function(){
 		var jinduwidth=$('.level3_list_circle-inner1').css('width');
 
 		var scrollHeight=$(window).scrollTop();
 		var height1=$('.level3').offset().top;
-		console.log(scrollHeight)
 		if(scrollHeight>=120){
 			$('.level2_you').addClass('animated bounceInLeft');
 			$('.level2_introduce').addClass('animated bounceInDown');
@@ -75,14 +74,20 @@ $(document).ready(function(){
 		}
 	})
 
-	// 首屏菜单动画
+	//项目展示动画
+	var Project=$('.level4_content').find('.level4_zuopin');
+	Project.each(function(index){
+		Project.eq(index).mouseover(function(){
+			$(this).find('.zhezhao').addClass('animated bounceInDown opa8');
+			$(this).find('.level4_project_text').addClass('animated bounceInDown opa1');
+		})
+		Project.eq(index).mouseleave(function(){
+			$(this).find('.zhezhao').removeClass('animated bounceInDown opa8');
+			$(this).find('.level4_project_text').removeClass('animated bounceInDown opa1');
+		})
+	})
 
-	// var menuList=$('.level1-listbox').find('li');
-	// menuList.each(function(index){
-	// 	setTimeout(function(){
-	// 		menuList.eq(index).addClass('animated bounceInLeft');
-	// 	},500)
-	// })
+
 
 	
 })
