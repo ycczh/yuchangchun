@@ -153,13 +153,15 @@
 	margin-left:5%;
 }
 .level2_lifeshow>h3{
-	font-size:30px;
+	font-size:28px;
 	text-align:center;
 	height:50px;
 	line-height:50px;
 	font-weight:bold;
 	color:rgb(233, 255, 61);
 	margin-bottom:30px;
+	position: relative;
+	margin-top:20px;
 }
 .level2_lifeshow>ul>li{
 	float:left;
@@ -187,10 +189,35 @@
 	font-size: 14px;
 	color:#77b852;
 	color: #2e3a50;
-	font-family: 微软雅黑;
+	font-family: '微软雅黑';
 	letter-spacing: 5px;
+}
+.youxiu{
 
 }
+.youxiu:before{
+	content:'';
+	width:150px;
+	height:2px;
+	border-radius:50%;
+	background:rgb(233, 255, 61);
+	display:block;
+	position: absolute;
+	top:25px;
+	left:50px;
+}
+.youxiu:after{
+	content:'';
+	width:150px;
+	height:2px;
+	border-radius:50%;
+	background:rgb(233, 255, 61);
+	display:block;
+	position: absolute;
+	top:25px;
+	right:50px;
+}
+
 
 
 /*   第三屏   */
