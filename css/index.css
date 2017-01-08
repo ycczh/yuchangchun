@@ -153,20 +153,26 @@
 	margin-left:5%;
 }
 .level2_lifeshow>h3{
+	width:710px;
 	font-size:28px;
 	text-align:center;
 	height:50px;
 	line-height:50px;
 	font-weight:bold;
+	margin:0 auto;
 	color:rgb(233, 255, 61);
 	margin-bottom:30px;
 	position: relative;
 	margin-top:20px;
 }
+.level2_lifeshow>ul{
+	width:710px;
+	margin:0 auto;
+}
 .level2_lifeshow>ul>li{
 	float:left;
-	width:40%;
-	margin-left:5%;
+	width:300px;
+	margin-left:30px;
 	height:250px;
 	margin-bottom:30px;
 	overflow:hidden;
@@ -204,7 +210,7 @@
 	display:block;
 	position: absolute;
 	top:25px;
-	left:50px;
+	left:10%;
 }
 .youxiu:after{
 	content:'';
@@ -215,7 +221,7 @@
 	display:block;
 	position: absolute;
 	top:25px;
-	right:50px;
+	right:10%;
 }
 
 

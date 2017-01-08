@@ -18,7 +18,8 @@ $(document).ready(function(){
 		bullet.eq(1).text('中国创新大会移动端');
 		bullet.eq(2).text('爱伙响应式官网');
 		bullet.eq(3).text('爱伙招商网站');
-		bullet.eq(4).text('SPA单页应用');
+		bullet.eq(4).text('维修保APP');
+		bullet.eq(5).text('SPA单页应用');
 	},500)
 
 	$('.level4-spa-btn').click(function(){
